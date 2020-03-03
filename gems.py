@@ -33,7 +33,6 @@ titles = {
 }
 
 skills = [
-    "Abyssal Cry",
     "Ancestral Warchief",
     "Animate Guardian",
     "Animate Weapon",
@@ -54,7 +53,6 @@ skills = [
     "Burning Arrow",
     "Armageddon Brand",
     "Chain Hook",
-    "Death Aura",
     "Blade Flurry",
     "Charged Dash",
     "Cleave",
@@ -184,12 +182,10 @@ skills = [
     "Tornado Shot",
     "Ancestral Protector",
     "Doryani's Touch",
-    "Animate Weapon",
     "Summon Phantasm",
     "Vengeance",
     "Vigilant Strike",
     "Viper Strike",
     "Whirling Blades",
-    "Wild Strike",
-    "Wrath"
+    "Wild Strike"
 ]
