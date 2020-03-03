@@ -13,6 +13,7 @@ Then you must build your char around it. No crying. Just take it.
 ## TO-DO
 * Create groups of skills (main skills, movement skills, defense skills, pet skills) and roll one of each.
 * After that, create a list of supports (must check compatibility with the skills) for each skill picked that way.
+* Last thing is: make it web-page.
 
 ## Running
 
