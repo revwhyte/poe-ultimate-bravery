@@ -11,7 +11,8 @@ Then you must build your char around it. No crying. Just take it.
 * You can roll char, ascension and main skill.
 
 ## TO-DO
-* Create groups of skills (main skills, movement skills, defense skills, pet skills) and roll one of each.
+* Mark the text in terminal, with colors and/or bold/italic marks (to highlight the important parts of output);
+* Create groups of skills (main skills, movement skills, defense skills, pet skills) and roll one of each;
 * After that, create a list of supports (must check compatibility with the skills) for each skill picked that way.
 * Last thing is: make it web-page.
 
