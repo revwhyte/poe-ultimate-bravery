@@ -2,34 +2,35 @@
 Lib dos principais vetores usados no programa principal
 '''
 
-bonecos = [
-    'duelist',
-    'marauder',
-    'ranger',
-    'scion',
-    'shadow',
-    'templar',
-    'witch'
-]
-
-ascensoes = {
-    'duelist': ['slayer', 'champion', 'gladiator'],
-    'marauder': ['chieftain', 'berserker', 'juggernaut'],
-    'ranger': ['raider', 'pathfinder', 'deadeye'],
-    'scion': ['ascendant'],
-    'shadow': ['saboteur', 'trickster', 'assassin'],
-    'templar': ['hierophant', 'inquisitor', 'guardian'],
-    'witch': ['necromancer', 'occultist', 'elementalist'],
-}
-
-titles = {
-    'duelist': 'handsome ',
-    'marauder': 'brave ',
-    'ranger': 'ferocious ',
-    'scion': 'bitter ',
-    'shadow': 'tricky ',
-    'templar': 'faithful ',
-    'witch': 'insane '
+classes = {
+    'duelist': [
+        ['slayer', 'champion', 'gladiator'],
+        'handsome'
+    ],
+    'marauder': [
+        ['chieftain', 'berserker', 'juggernaut'],
+        'brave'
+    ],
+    'ranger': [
+        ['raider', 'pathfinder', 'deadeye'],
+        'ferocious'
+    ],
+    'scion': [
+        ['ascendant'],
+        'bitter'
+    ],
+    'shadow': [
+        ['saboteur', 'trickster', 'assassin'],
+        'tricky'
+    ],
+    'templar': [
+        ['hierophant', 'inquisitor', 'guardian'],
+        'faithful'
+    ],
+    'witch': [
+        ['necromancer', 'occultist', 'elementalist'],
+        'insane'
+    ]
 }
 
 skills = [

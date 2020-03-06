@@ -2,7 +2,10 @@
 
 from random import shuffle, choice
 from time import sleep
-import gems
+from termcolor import colored, cprint
+import sys
+import data
+
 
 def capitalize_all(string):
     new_string = string.split(' ')
@@ -10,33 +13,45 @@ def capitalize_all(string):
         word.capitalize()
     return ' '.join(map(str, new_string))
 
-bonecos = gems.bonecos
-titles = gems.titles
-ascensoes = gems.ascensoes
-skills = gems.skills
+
+# start
+classes = data.classes
+skills = data.skills
+bonecos = [key for key in classes.keys()]
+
 
 # pick char
+# 1. object
 bonecos.sort()
 shuffle(bonecos)
-classe = choice(bonecos)
-titulo = titles[classe]
+saida = classes[choice(bonecos)]
+# 2. pick ascension
+ascensao = saida[0]
+ascensao.sort()
+shuffle(ascensao)
+ascensao = choice(ascensao)
+# 3. pick title
+titulo = saida[1]
+# 4. pick color
+cor = choice(['red', 'green', 'blue'])
 
-# pick ascension
-ascensoes = ascensoes[classe]
-ascensoes.sort()
-shuffle(ascensoes)
-ascensao = choice(ascensoes)
 
 # pick skill
 skills.sort()
 shuffle(skills)
 main_skill = choice(skills)
 
+
+# coloring text
+titulo = colored(titulo.capitalize(), cor)
+ascensao = colored(ascensao.capitalize(), cor)
+main_skill = colored(capitalize_all(main_skill), cor)
+
 # chat part
 print("Exile, we need your help.")
 sleep(1)
-print("You, my " + titulo.capitalize() + classe.capitalize() + ", is the one to come in our aid.")
+print("You, my " + titulo  + " " + ascensao + ", is the one to come in our aid.")
 sleep(1)
-print("with your " + ascensao.capitalize() + " skills, you may save Oriath from those who got influenced by the Eldritch curse.")
+print("You may save Oriath from Sirus' menace.")
 sleep(1)
-print("I hope you can save us, sice you're the best with your " + capitalize_all(main_skill) + " ability.")
+print("I hope you can save us, with your " + main_skill + " skills.")
