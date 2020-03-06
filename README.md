@@ -8,10 +8,11 @@ The idea is pretty simple: you run the code and it gives you character, ascensio
 Then you must build your char around it. No crying. Just take it.
 
 ## Changelog
-### Version 1.0
-* You can roll char, ascension and main skill.
 ### Version 1.1
 * Colouring the text, to highlight it.
+### Version 1.0
+* You can roll char, ascension and main skill.
+
 
 ## TO-DO
 * Mark the text in terminal, with colors and/or bold/italic marks (to highlight the important parts of output);
