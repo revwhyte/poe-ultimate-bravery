@@ -50,7 +50,7 @@ main_skill = colored(capitalize_all(main_skill), cor)
 # chat part
 print("Exile, we need your help.")
 sleep(1)
-print("You, my " + titulo  + " " + ascensao + ", is the one to come in our aid.")
+print("You, my " + titulo  + " " + ascensao + ", are the one to come in our aid.")
 sleep(1)
 print("You may save Oriath from Sirus' menace.")
 sleep(1)
